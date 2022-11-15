@@ -1,0 +1,88 @@
+.skillsIntroduction{
+    background-color: #E0E4C1;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+body{
+    font-family: "Poppins", serif;
+}
+h1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.relevantCoursework{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 0px;
+    background-color: #C5D49A;
+}
+.relevantCoursework h2{
+    font-size: 70px;
+    margin: 0px;
+}
+.relevantCoursework p{
+    font-size: 30px;
+    line-height: 75%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery img{
+    overflow: auto;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    align-self: center;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background: #D9D9D9;
+    opacity: 0.7;
+    position: fixed; 
+    top: 0;
+    width: 98%;
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+}
+.nav_item{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.nav_item a{
+    color: #000000;
+}
+footer{
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer img {
+    width: 30px;
+    padding-right: 10px;
+
+}
+.skip a{
+    left: 0;
+    padding: 61px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 2122;
+}
+.skip{
+    position: fixed;
+    top: 50px;
+    left: -40px;
+}
