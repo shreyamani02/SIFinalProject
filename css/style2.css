@@ -75,14 +75,10 @@ footer img {
 
 }
 .skip a{
-    left: 0;
-    padding: 61px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 2122;
-}
-.skip{
-    position: fixed;
+    position: absolute;
+    top: -40px;
+  }
+    
+.skip a:focus{
     top: 50px;
-    left: -40px;
 }
