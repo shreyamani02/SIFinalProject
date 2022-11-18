@@ -84,8 +84,7 @@ footer img {
     top: -40px;
   }
   
-  /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
   
-  .skip a:focus{
+.skip a:focus{
     top: 50px;
-  }
+}
