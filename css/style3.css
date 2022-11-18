@@ -85,13 +85,12 @@ footer img {
 }
 
 .skip a{
-    left: 0;
-    padding: 61px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-}
-.skip{
-    position: fixed;
+    position: absolute;
+    top: -40px;
+  }
+  
+  /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
+  
+.skip a:focus{
     top: 50px;
 }
