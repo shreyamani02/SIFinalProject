@@ -44,6 +44,7 @@ h2{
 .gallery{
     display: grid;
     grid-template-columns: 100%;
+    row-gap: 20px;
 }
 .gallery img{
     overflow: auto;
@@ -110,12 +111,16 @@ footer img {
     .gallery{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
     }
 }
 @media all and (min-width: 1200px){
     .gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
     }
     #imageSection{
         display: initial;
