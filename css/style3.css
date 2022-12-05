@@ -1,0 +1,170 @@
+.homeIntroduction{
+    display: grid;
+    grid-template-columns: 43% 57%;
+    background-color: #E0E4C1;
+}
+body{
+    font-family: "Poppins", serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: bolder;
+    padding-top: 70px;
+}
+h2{
+    color: darkgreen;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 80px;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.homeIntroduction p{
+    font-size: 30px;
+}
+#textSectionHome{
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+    width: 58%;
+}
+#textSectionHome h1{
+    line-height: 118%;
+}
+#imageSection {
+    display: none;
+}
+.internshipsSection{
+    padding-bottom: 70px;
+    margin: 0px;
+    background-color: #C5D49A;
+}
+.internshipsSection h2{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 50px;
+    word-wrap: break-word;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: initial;
+    flex-wrap: wrap;
+}
+.projects > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.projects h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 20%;
+}
+.projects img{
+    padding-right: 30px;
+    padding-left: 30px;
+    word-wrap: break-word;
+}
+.projects p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1%;
+}
+.projects a img{
+    width: 200px;
+    padding-top: 20px;
+}
+.projectsLeadership{
+    background-color: #E0E4C1;
+    padding-bottom: 20px;
+}
+.projectsLeadership h2{
+    text-align: left;
+    font-size: 50px; 
+    padding-left: 50px;  
+    word-wrap: break-word;
+}
+.projectsLeadership li{
+    font-size: 20px;
+}
+.projectsLeadership ul li{
+    margin: 0px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.projectsLeadership ul li b{
+    color: darkgreen;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background: #D9D9D9;
+    opacity: 0.7;
+    position: fixed; 
+    top: 0;
+    width: 98%;
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+}
+.nav_item{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.nav_item a{
+    color: #000000;
+}
+#projectsLink{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px 10px 20px;
+    text-decoration: none;
+}
+footer{
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.skip a{
+    position: absolute;
+    top: -40px;
+}
+
+.skip a:focus{
+    top: 50px;
+}
+
+@media all and (min-width: 700px){
+    .internshipsSection h2{
+        font-size: 80px;
+    }
+    .projectsLeadership h2{
+        font-size: 80px;
+        text-align: right;
+        padding-right: 50px;  
+    }
+    .projects{
+        flex-direction: row;
+        overflow: scroll;
+    }
+}
+@media all and (min-width: 1200px){
+    #imageSection{
+        display: initial;
+    }
+}
