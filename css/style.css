@@ -1,0 +1,141 @@
+.homeIntroduction{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E0E4C1;
+}
+#imageSection{
+    display: none;
+}
+#textSectionHome{
+    padding-bottom: 30px;
+}
+body{
+    font-family: "Poppins", serif;
+}
+h1{
+    font-size: 100px;
+    font-weight: bolder;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+h2{
+    color: darkgreen;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 40px;
+}
+.homeIntroduction p{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+#textSectionHome{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.aboutMe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 0px;
+    background-color: #C5D49A;
+}
+.aboutMe p{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+}
+.gallery img{
+    overflow: auto;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    align-self: center;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background: #D9D9D9;
+    opacity: 0.7;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#homeLink{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px 10px 20px;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+.nav_item{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.nav_item a{
+    color: #000000;
+}
+footer{
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer img {
+    width: 40px;
+    padding-right: 13px;
+}
+.skip a{
+    position: absolute;
+    top: -40px;
+  }
+  
+.skip a:focus{
+    top: 50px;
+}
+
+@media all and (min-width: 700px){
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+}
+@media all and (min-width: 1200px){
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+    #imageSection{
+        display: initial;
+    }
+    #imageSection img{
+        width: 100%;
+        height: 100%;
+    }
+    .homeIntroduction{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
